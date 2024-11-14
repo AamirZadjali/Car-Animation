@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car-Animation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img
+      width="500px"
+      src="/Assets/—Pngtree—car sports car transportation_8253017.png"
+      id="car"
+    />
+
+    <img
+      width="250px"
+      src="/Assets/—Pngtree—traffic signal lights with stop_8518155.png"
+      id="signal"
+    />
+    <div>
+      <div onclick="traffic('red')" id="red"></div>
+      <div onclick="traffic('green')" id="green"></div>
+      <div onclick="traffic('yellow')" id="yellow"></div>
+    </div>
+
+    <audio
+      id="carsound"
+      src="/Assets/mixkit-futuristic-vehicle-flying-1552.wav"
+    ></audio>
+
+    <audio
+      id="startsound"
+      src="/Assets/mixkit-car-engine-start-1566.wav"
+    ></audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

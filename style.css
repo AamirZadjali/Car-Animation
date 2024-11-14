@@ -1,0 +1,50 @@
+body {
+  overflow: hidden;
+  position: relative;
+  background-image: url("/Assets/rb_97666.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#car {
+  position: absolute;
+  right: 0;
+  top: 140%;
+}
+
+#signal {
+  position: relative;
+}
+#red {
+  opacity: 100%;
+  left: 4%;
+  top: 20%;
+  bottom: 0;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+}
+#green {
+  opacity: 10%;
+  left: 4%;
+  top: 65%;
+  bottom: 0;
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  position: absolute;
+  border-radius: 50%;
+}
+
+#yellow {
+  opacity: 10%;
+  left: 4%;
+  top: 42%;
+  bottom: 0;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-color: yellow;
+  border-radius: 50%;
+}
